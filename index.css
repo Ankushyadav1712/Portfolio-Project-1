@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+nav a:hover{
+    border-bottom: 3px solid red;
+}
+
+h1{
+    color: white;
+    margin: 150px 40%;
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: oblique;
+
+}
+
+.logo1{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.container1{
+    
+    width: 100%;
+    margin: 10x;
+    padding: 10px;
+ 
+    display: flex;
+}
+
+.heading{
+    color: white;
+}
+
+#Ab{
+    font-size: 60px;
+    font-weight: 500;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#lang{
+    margin-left: 600px;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+#p1{
+ 
+    margin-left: 850px;
+    color: red;
+    margin-top: 1px;
+}
+
+.container2{
+    
+    width: 100%;
+    margin: 10x;
+    padding: 10px;
+    display: flex;
+    min-height: 300px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.lang1{
+    border: 1px solid white;
+    width: 32%;
+    
+}
+.lang2{
+    border: 1px solid white;
+    width: 32%;
+}
+.lang3{
+    border: 1px solid white;
+    width: 32%;
+}
+
+#l1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.lang1:hover{
+    background-color: rgb(90, 84, 84);
+    
+}
+
+.lang2:hover{
+    background-color: rgb(79, 76, 76);
+    
+}
+
+.lang3:hover{
+    background-color: rgb(117, 110, 110);
+    
+}
+
+#cont{
+    margin-left: 600px;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.container3{
+    width: 100%;
+    margin: 10x;
+    padding: 10px;
+    display: flex;
+    min-height: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+ 
+
+}
+
+#ma1{
+    color: white;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: xx-large;
+    margin-top: 90px;
+    margin-right: 700px;
+}
+hr{
+    color: #94969f;
+}
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
